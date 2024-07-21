@@ -4,11 +4,13 @@ import './index.css'
 import Header from './Header'
 import Notes from './Notes'
 
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <div className=''>
    <Header/>
    <Notes/>
+
     </div>
   </React.StrictMode>,
 )
